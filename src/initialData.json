@@ -1,0 +1,130 @@
+{
+    "series": [
+      {
+        "id": 1,
+        "name": "Malazan",
+        "description": "Malazan description",
+        "author": "Steven Erikson",
+        "publisher": "Tor Books",
+        "numberOfBooks": 10,
+        "wikilink": "https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen",
+        "imglink": "https://upload.wikimedia.org/wikipedia/en/4/46/MalazanBookOfTheFallen.jpg",
+        "books": [
+          {
+            "id": 2,
+            "title": "Gardens of the Moon",
+            "description": "GotM description",
+            "ISBN": "9783442269099",
+            "numberInSeries": 1,
+            "read": true,
+            "wikilink": "https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen",
+            "imglink": "https://upload.wikimedia.org/wikipedia/en/4/46/MalazanBookOfTheFallen.jpg"
+          },
+          {
+            "id": 3,
+            "title": "Deadhouse Gates",
+            "description": "DG description",
+            "ISBN": "9783442269099",
+            "numberInSeries": 2,
+            "read": true,
+            "wikilink": "https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen",
+            "imglink": "https://upload.wikimedia.org/wikipedia/en/4/46/MalazanBookOfTheFallen.jpg"
+          },
+          {
+            "id": 4,
+            "title": "Memories of Ice",
+            "description": "MoI description",
+            "ISBN": "9783442269099",
+            "numberInSeries": 3,
+            "read": true,
+            "wikilink": "https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen",
+            "imglink": "https://upload.wikimedia.org/wikipedia/en/4/46/MalazanBookOfTheFallen.jpg"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Dresden Files",
+        "description": "Dresden Files description",
+        "author": "Jim Butcher",
+        "publisher": "Tor Books",
+        "numberOfBooks": 15,
+        "wikilink": "https://en.wikipedia.org/wiki/The_Dresden_Files",
+        "imglink": "https://upload.wikimedia.org/wikipedia/en/3/3f/Skin_game_cover.jpg",
+        "books": [
+          {
+            "id": 6,
+            "title": "Storm Front",
+            "description": "Storm Front description",
+            "ISBN": "9783442269099",
+            "numberInSeries": 1,
+            "read": true,
+            "wikilink": "https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen",
+            "imglink": "https://upload.wikimedia.org/wikipedia/en/4/46/MalazanBookOfTheFallen.jpg"
+          },
+          {
+            "id": 7,
+            "title": "Fool Moon",
+            "description": "Fool Moon description",
+            "ISBN": "9783442269099",
+            "numberInSeries": 2,
+            "read": true,
+            "wikilink": "https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen",
+            "imglink": "https://upload.wikimedia.org/wikipedia/en/4/46/MalazanBookOfTheFallen.jpg"
+          },
+          {
+            "id": 8,
+            "title": "Grave Peril",
+            "description": "Grave Peril description",
+            "ISBN": "9783442269099",
+            "numberInSeries": 3,
+            "read": true,
+            "wikilink": "https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen",
+            "imglink": "https://upload.wikimedia.org/wikipedia/en/4/46/MalazanBookOfTheFallen.jpg"
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Lord of the Rings",
+        "description": "Lord of the Rings description",
+        "author": "JRR Tolkien",
+        "publisher": "Tor Books",
+        "numberOfBooks": 10,
+        "wikilink": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+        "imglink": "https://upload.wikimedia.org/wikipedia/en/e/e9/First_Single_Volume_Edition_of_The_Lord_of_the_Rings.gif",
+        "books": [
+          {
+            "id": 10,
+            "title": "Fellowship of the Ring",
+            "description": "Fellowship of the Ring description",
+            "ISBN": "9783442269099",
+            "numberInSeries": 1,
+            "read": true,
+            "wikilink": "https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen",
+            "imglink": "https://upload.wikimedia.org/wikipedia/en/4/46/MalazanBookOfTheFallen.jpg"
+          },
+          {
+            "id": 11,
+            "title": "Two Towers",
+            "description": "Two Towers description",
+            "ISBN": "9783442269099",
+            "numberInSeries": 2,
+            "read": true,
+            "wikilink": "https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen",
+            "imglink": "https://upload.wikimedia.org/wikipedia/en/4/46/MalazanBookOfTheFallen.jpg"
+          },
+          {
+            "id": 12,
+            "title": "Return of the King",
+            "description": "Return of the King description",
+            "ISBN": "9783442269099",
+            "numberInSeries": 3,
+            "read": true,
+            "wikilink": "https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen",
+            "imglink": "https://upload.wikimedia.org/wikipedia/en/4/46/MalazanBookOfTheFallen.jpg"
+          }
+        ]
+      }
+    ]
+  }
