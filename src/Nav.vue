@@ -6,11 +6,16 @@
   </button>
   <div class="navbar-collapse" id="navbarText">
         <ul class="navbar-nav">
-            <li class="nav-item active">
-                <router-link to="/" class="nav-link">Home</router-link>
+            <li class="nav-item">
+                <router-link to="/" class="nav-link" exact>Home</router-link>
             </li>
-            <li class="nav-item" v-for="serie in series" :key="serie.id">
-                <router-link :to="`/series/${serie.id}`" class="nav-link">{{ serie.name }}</router-link>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Series
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                 <router-link class="dropdown-item"  v-for="serie in series" :key="serie.id" :to="`/series/${serie.id}`" :style="{ cursor: 'pointer'}">{{ serie.name }}</router-link>
+              </div>
             </li>
         </ul>
   </div>
@@ -18,12 +23,12 @@
 </template>
 
 <script>
-import store from "./store"
-export default {
-  computed: {
-    series() {
-      return store.state.series.series;
+  import store from "./store";
+  export default {
+    computed: {
+      series() {
+        return store.state.series.series;
+      }
     }
-  }
-};
+  };
 </script>

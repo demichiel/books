@@ -100,7 +100,7 @@
             "description": "Fellowship of the Ring description",
             "ISBN": "9783442269099",
             "numberInSeries": 1,
-            "read": true,
+            "read": false,
             "wikilink": "https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen",
             "imglink": "https://upload.wikimedia.org/wikipedia/en/4/46/MalazanBookOfTheFallen.jpg"
           },
@@ -110,7 +110,7 @@
             "description": "Two Towers description",
             "ISBN": "9783442269099",
             "numberInSeries": 2,
-            "read": true,
+            "read": false,
             "wikilink": "https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen",
             "imglink": "https://upload.wikimedia.org/wikipedia/en/4/46/MalazanBookOfTheFallen.jpg"
           },
@@ -120,7 +120,7 @@
             "description": "Return of the King description",
             "ISBN": "9783442269099",
             "numberInSeries": 3,
-            "read": true,
+            "read": false,
             "wikilink": "https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen",
             "imglink": "https://upload.wikimedia.org/wikipedia/en/4/46/MalazanBookOfTheFallen.jpg"
           }

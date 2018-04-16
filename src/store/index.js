@@ -12,10 +12,10 @@ const store = new Vuex.Store({
   },
   mutations: {
     resetSeries(state) {
-      state.series = JSON.parse(initialData)
+      state.series = initialData
     },
     saveToLocalStorage(state) {
-      localStorage.setItem('series', state.series)
+      localStorage.setItem('series', JSON.stringify(state.series))
     },
     loadFromLocalStorage(state) {
       state.series = JSON.parse(localStorage.getItem('series'))
