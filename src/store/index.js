@@ -20,6 +20,11 @@ const store = new Vuex.Store({
     loadFromLocalStorage(state) {
       state.series = JSON.parse(localStorage.getItem('series'))
     },
+    deleteBookById(state, id) {
+      state.series.series.forEach(serie => {
+        serie.books = serie.books.filter(book => book.id != id)
+        });
+    }
   },
   getters: {
     getSeriesById: (state) => (id) => {

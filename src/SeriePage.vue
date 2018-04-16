@@ -39,9 +39,7 @@
             <h5 class="text-right">Books</h5>
           </div>
           <div class="col">
-          <div class="card-deck">
             <book-card v-for="book in serie.books" v-bind:book="book" :key="book.id" />
-          </div>
           </div>
         </div>
     </div>
