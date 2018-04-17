@@ -3,7 +3,7 @@
     <div class="container">
       <Nav />
       <div class="jumbotron">
-        <h1 class="display-4">Books I Read</h1>
+        <h1 class="display-4">Books I've Read</h1>
       </div>
       <router-view />
     </div>

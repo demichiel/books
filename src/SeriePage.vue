@@ -1,7 +1,16 @@
 <template>
     <div id="app">
     <div class="container">
-        <h2>{{ serie.name }}</h2>
+        <div class="row">
+          <div class="col">
+            <h2>{{ serie.name }}</h2>
+          </div>
+          <div class="col-md-3 text-right">
+            <router-link :to="`/series/${serie.id}/edit`">
+              <button class="btn btn-outline-primary"><i class="fas fa-pencil-alt"></i> Edit Series</button>
+            </router-link>
+          </div>
+        </div>
         <div class="row">
           <div class="col-md-3">
             <h5 class="text-right">Author</h5>
@@ -36,6 +45,16 @@
         </div>
         <div class="row">
           <div class="col-md-3">
+            <h5 class="text-right">Add Book to {{ serie.name }}</h5>
+          </div>
+          <div class="col">
+            <router-link :to="`/series/${serie.id}/add`">
+              <button class="btn btn-outline-success"><i class="fas fa-plus"></i> Add Book</button>
+            </router-link>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
             <h5 class="text-right">Books</h5>
           </div>
           <div class="col">
@@ -50,6 +69,7 @@
 import store from "./store"
 import Nav from './Nav.vue'
 import BookCard from './BookCard.vue'
+import AddBookPage from './AddBookPage.vue'
 
 export default {
   computed: {
@@ -60,6 +80,7 @@ export default {
   components: {
       Nav,
       BookCard,
+      AddBookPage,
   }
 };
 </script>

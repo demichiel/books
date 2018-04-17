@@ -6,7 +6,12 @@
             <p class="card-text">{{ serie.description }}</p>
         </div>
         <div class="card-footer">
-           <small class="text-muted">{{ serie.numberOfBooks }} books in series</small>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" :aria-valuenow="booksReadInSerie" aria-valuemin="0" :aria-valuemax="serie.numberOfBooks"
+                    :style="`width: ${computePercentage}%`">
+                    {{ booksReadInSerie }} / {{ serie.numberOfBooks }}
+                </div>
+            </div>
         </div>
     </div>  
 </template>
@@ -17,6 +22,12 @@
       computed: {
         imageURL() {
           return this.serie.imglink;
+        },
+        booksReadInSerie() {
+            return this.serie.books.filter(b => b.read === true).length
+        },
+        computePercentage() {
+            return Math.floor((this.serie.books.filter(b => b.read === true).length / this.serie.numberOfBooks) * 100)
         }
       }
     };

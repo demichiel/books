@@ -1,130 +1,123 @@
 {
-    "series": [
-      {
-        "id": 1,
-        "name": "Malazan",
-        "description": "Malazan description",
-        "author": "Steven Erikson",
-        "publisher": "Tor Books",
-        "numberOfBooks": 10,
-        "wikilink": "https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen",
-        "imglink": "https://upload.wikimedia.org/wikipedia/en/4/46/MalazanBookOfTheFallen.jpg",
-        "books": [
-          {
-            "id": 2,
-            "title": "Gardens of the Moon",
-            "description": "GotM description",
-            "ISBN": "9783442269099",
-            "numberInSeries": 1,
-            "read": true,
-            "wikilink": "https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen",
-            "imglink": "https://upload.wikimedia.org/wikipedia/en/4/46/MalazanBookOfTheFallen.jpg"
-          },
-          {
-            "id": 3,
-            "title": "Deadhouse Gates",
-            "description": "DG description",
-            "ISBN": "9783442269099",
-            "numberInSeries": 2,
-            "read": true,
-            "wikilink": "https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen",
-            "imglink": "https://upload.wikimedia.org/wikipedia/en/4/46/MalazanBookOfTheFallen.jpg"
-          },
-          {
-            "id": 4,
-            "title": "Memories of Ice",
-            "description": "MoI description",
-            "ISBN": "9783442269099",
-            "numberInSeries": 3,
-            "read": true,
-            "wikilink": "https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen",
-            "imglink": "https://upload.wikimedia.org/wikipedia/en/4/46/MalazanBookOfTheFallen.jpg"
-          }
-        ]
-      },
-      {
-        "id": 5,
-        "name": "Dresden Files",
-        "description": "Dresden Files description",
-        "author": "Jim Butcher",
-        "publisher": "Tor Books",
-        "numberOfBooks": 15,
-        "wikilink": "https://en.wikipedia.org/wiki/The_Dresden_Files",
-        "imglink": "https://upload.wikimedia.org/wikipedia/en/3/3f/Skin_game_cover.jpg",
-        "books": [
-          {
-            "id": 6,
-            "title": "Storm Front",
-            "description": "Storm Front description",
-            "ISBN": "9783442269099",
-            "numberInSeries": 1,
-            "read": true,
-            "wikilink": "https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen",
-            "imglink": "https://upload.wikimedia.org/wikipedia/en/4/46/MalazanBookOfTheFallen.jpg"
-          },
-          {
-            "id": 7,
-            "title": "Fool Moon",
-            "description": "Fool Moon description",
-            "ISBN": "9783442269099",
-            "numberInSeries": 2,
-            "read": true,
-            "wikilink": "https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen",
-            "imglink": "https://upload.wikimedia.org/wikipedia/en/4/46/MalazanBookOfTheFallen.jpg"
-          },
-          {
-            "id": 8,
-            "title": "Grave Peril",
-            "description": "Grave Peril description",
-            "ISBN": "9783442269099",
-            "numberInSeries": 3,
-            "read": true,
-            "wikilink": "https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen",
-            "imglink": "https://upload.wikimedia.org/wikipedia/en/4/46/MalazanBookOfTheFallen.jpg"
-          }
-        ]
-      },
-      {
-        "id": 9,
-        "name": "Lord of the Rings",
-        "description": "Lord of the Rings description",
-        "author": "JRR Tolkien",
-        "publisher": "Tor Books",
-        "numberOfBooks": 10,
-        "wikilink": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
-        "imglink": "https://upload.wikimedia.org/wikipedia/en/e/e9/First_Single_Volume_Edition_of_The_Lord_of_the_Rings.gif",
-        "books": [
-          {
-            "id": 10,
-            "title": "Fellowship of the Ring",
-            "description": "Fellowship of the Ring description",
-            "ISBN": "9783442269099",
-            "numberInSeries": 1,
-            "read": false,
-            "wikilink": "https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen",
-            "imglink": "https://upload.wikimedia.org/wikipedia/en/4/46/MalazanBookOfTheFallen.jpg"
-          },
-          {
-            "id": 11,
-            "title": "Two Towers",
-            "description": "Two Towers description",
-            "ISBN": "9783442269099",
-            "numberInSeries": 2,
-            "read": false,
-            "wikilink": "https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen",
-            "imglink": "https://upload.wikimedia.org/wikipedia/en/4/46/MalazanBookOfTheFallen.jpg"
-          },
-          {
-            "id": 12,
-            "title": "Return of the King",
-            "description": "Return of the King description",
-            "ISBN": "9783442269099",
-            "numberInSeries": 3,
-            "read": false,
-            "wikilink": "https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen",
-            "imglink": "https://upload.wikimedia.org/wikipedia/en/4/46/MalazanBookOfTheFallen.jpg"
-          }
-        ]
-      }
-    ]
-  }
+  "series": [{
+    "id": 1,
+    "name": "Malazan",
+    "description": "Malazan description",
+    "author": "Steven Erikson",
+    "publisher": "Tor Books",
+    "numberOfBooks": 10,
+    "wikilink": "https://en.wikipedia.org/wiki/Malazan_Book_of_the_Fallen",
+    "imglink": "https://upload.wikimedia.org/wikipedia/en/4/46/MalazanBookOfTheFallen.jpg",
+    "books": [{
+      "id": 2,
+      "title": "Gardens of the Moon",
+      "description": "Gardens of the Moon is the first of ten novels in Canadian author Steven Erikson's high fantasy series, the Malazan Book of the Fallen. It was first published in 1999, and nominated for a World Fantasy Award.\n\nThe novel details the various struggles for power on an intercontinental region dominated by the Malazan Empire. It is notable for the use of high magic, and unusual plot structure. Gardens of the Moon centres around the Imperial campaign to conquer the city of Darujhistan on the continent of Genabackis.",
+      "ISBN": "0-553-81217-3",
+      "numberInSeries": 1,
+      "read": true,
+      "wikilink": "https://en.wikipedia.org/wiki/Gardens_of_the_Moon",
+      "imglink": "https://upload.wikimedia.org/wikipedia/en/7/76/Three_Gardens_of_the_Moon.jpg"
+    }, {
+      "id": 3,
+      "title": "Deadhouse Gates",
+      "description": "Deadhouse Gates is the second novel in Steven Erikson's epic fantasy series, the Malazan Book of the Fallen. Deadhouse Gates follows on from the first novel, Gardens of the Moon and takes place simultaneously with events in the third novel Memories of Ice. The novel was first published in the United Kingdom as a trade paperback on 1 September 2000, with a mass-market paperback edition followed on 1 October 2001. The first United States edition was published in hardback by Tor Books on 28 February 2005 with a mass-market paperback edition following on 7 February 2006. This is the only novel in the series where the UK and US editions share the same cover; the other US books use a different cover artist and style.",
+      "ISBN": " \t0-553-81311-0",
+      "numberInSeries": 2,
+      "read": true,
+      "wikilink": "https://en.wikipedia.org/wiki/Deadhouse_Gates",
+      "imglink": "https://upload.wikimedia.org/wikipedia/en/1/11/Deadhouse_Gates.jpg"
+    }, {
+      "id": 4,
+      "title": "Memories of Ice",
+      "description": "Memories of Ice is the third volume of Steven Erikson's epic fantasy series, the Malazan Book of the Fallen. The events of Memories of Ice begin just after the first book, Gardens of the Moon, and at the same time as the second, Deadhouse Gates.\n\nMemories of Ice focuses on the renegade Malazan 2nd Army and their new allies on Genabackis, and their battle with the Pannion Domin, a new power emerging from the south of the continent. It also reveals a great deal more about the gods, ascendants and the history of the Imass, K'Chain Che'Malle and the Tiste races.",
+      "ISBN": "0-553-81312-9",
+      "numberInSeries": 3,
+      "read": true,
+      "wikilink": "https://en.wikipedia.org/wiki/Memories_of_Ice",
+      "imglink": "https://upload.wikimedia.org/wikipedia/en/0/04/Memories_Of_Ice_Cover.jpg"
+    }, {
+      "title": "House of Chains",
+      "description": "House of Chains is the fourth volume of Canadian author Steven Erikson's epic fantasy series, the Malazan Book of the Fallen, and a direct sequel to the second volume in the series, Deadhouse Gates.\n\nThe novel was the first in the series to be published in hardback, first appearing in the United Kingdom on 2 December 2002. A mass-market paperback edition followed on 3 October 2003. The first United States edition was a hardcover published on 22 August 2006.",
+      "ISBN": "0-553-81313-7",
+      "numberInSeries": "4",
+      "read": true,
+      "wikilink": "https://en.wikipedia.org/wiki/House_of_Chains",
+      "imglink": "https://upload.wikimedia.org/wikipedia/en/a/ab/House_of_Chains.jpg",
+      "id": 13
+    }]
+  }, {
+    "id": 5,
+    "name": "Dresden Files",
+    "description": "Dresden Files description",
+    "author": "Jim Butcher",
+    "publisher": "Tor Books",
+    "numberOfBooks": 15,
+    "wikilink": "https://en.wikipedia.org/wiki/The_Dresden_Files",
+    "imglink": "https://upload.wikimedia.org/wikipedia/en/3/3f/Skin_game_cover.jpg",
+    "books": [{
+      "id": 6,
+      "title": "Storm Front",
+      "description": "Storm Front is a 2000 novel by science fiction and fantasy author Jim Butcher. It is the first novel in The Dresden Files, his first published series, and it follows the character of Harry Dresden, professional wizard. The novel was later adapted into a pilot for a SyFy channel television series.",
+      "ISBN": "978-0451457813",
+      "numberInSeries": 1,
+      "read": true,
+      "wikilink": "https://en.wikipedia.org/wiki/Storm_Front_(The_Dresden_Files)",
+      "imglink": "https://upload.wikimedia.org/wikipedia/en/2/2b/Storm_Front.png"
+    }, {
+      "id": 7,
+      "title": "Fool Moon",
+      "description": "Fool Moon is a 2001 contemporary fantasy novel by author Jim Butcher. It is the second novel in The Dresden Files, which follows the character of Harry Dresden, present-day Chicago's only professional wizard.",
+      "ISBN": "9783442269099",
+      "numberInSeries": 2,
+      "read": true,
+      "wikilink": "https://en.wikipedia.org/wiki/Fool_Moon_(The_Dresden_Files)",
+      "imglink": "https://upload.wikimedia.org/wikipedia/en/f/fd/Fool_Moon.jpg"
+    }, {
+      "id": 8,
+      "title": "Grave Peril",
+      "description": "Grave Peril is a 2001 urban fantasy novel by author Jim Butcher. It is the third novel in The Dresden Files, which follows the character of Harry Dresden, present-day Chicago's only professional wizard.",
+      "ISBN": "9783442269099",
+      "numberInSeries": 3,
+      "read": true,
+      "wikilink": "https://en.wikipedia.org/wiki/Grave_Peril_(The_Dresden_Files)",
+      "imglink": "https://upload.wikimedia.org/wikipedia/en/f/ff/Grave_Peril.jpg"
+    }]
+  }, {
+    "id": 9,
+    "name": "Lord of the Rings",
+    "description": "Lord of the Rings description",
+    "author": "JRR Tolkien",
+    "publisher": "Tor Books",
+    "numberOfBooks": 10,
+    "wikilink": "https://en.wikipedia.org/wiki/The_Lord_of_the_Rings",
+    "imglink": "https://upload.wikimedia.org/wikipedia/en/e/e9/First_Single_Volume_Edition_of_The_Lord_of_the_Rings.gif",
+    "books": [{
+      "id": 10,
+      "title": "The Fellowship of the Ring",
+      "description": "The Fellowship of the Ring is the first of three volumes of the epic novel The Lord of the Rings by the English author J. R. R. Tolkien. It is followed by The Two Towers and The Return of the King. It takes place in the fictional universe of Middle-earth. It was originally published on 29 July 1954 in the United Kingdom. The volume consists of a prologue titled \"Concerning Hobbits, and other matters\" followed by Book I and Book II.",
+      "ISBN": "9783442269099",
+      "numberInSeries": 1,
+      "read": false,
+      "wikilink": "https://en.wikipedia.org/wiki/The_Fellowship_of_the_Ring",
+      "imglink": "https://upload.wikimedia.org/wikipedia/en/8/8e/The_Fellowship_of_the_Ring_cover.gif"
+    }, {
+      "id": 11,
+      "title": "The Two Towers",
+      "description": "The Two Towers is the second volume of J. R. R. Tolkien's high fantasy novel The Lord of the Rings. It is preceded by The Fellowship of the Ring and followed by The Return of the King.",
+      "ISBN": "9783442269099",
+      "numberInSeries": 2,
+      "read": false,
+      "wikilink": "https://en.wikipedia.org/wiki/The_Two_Towers",
+      "imglink": "https://upload.wikimedia.org/wikipedia/en/a/a1/The_Two_Towers_cover.gif"
+    }, {
+      "id": 12,
+      "title": "The Return of the King",
+      "description": "The Return of the King is the third and final volume of J. R. R. Tolkien's The Lord of the Rings, following The Fellowship of the Ring and The Two Towers. The story begins in the kingdom of Gondor, which is soon to be attacked by the Dark Lord Sauron.",
+      "ISBN": "9783442269099",
+      "numberInSeries": 3,
+      "read": false,
+      "wikilink": "https://en.wikipedia.org/wiki/The_Return_of_the_King",
+      "imglink": "https://upload.wikimedia.org/wikipedia/en/1/11/The_Return_of_the_King_cover.gif"
+    }]
+  }]
+}
