@@ -1,5 +1,5 @@
 <template>
-    <div class="card-deck">
+    <div class="">
         <SerieCard v-for="serie in series.series" v-bind:serie="serie" :key="serie.id" />
     </div>
 </template>

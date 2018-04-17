@@ -1,16 +1,22 @@
 <template>
-    <div class="card" style="width: 8rem;">
-        <router-link :to="`/series/${serie.id}`"><img class="card-img-top" v-bind:src="imageURL" alt="header image" /></router-link>
-        <div class="card-body">
-            <h5 class="card-title">{{ serie.name }}</h5>
-            <p class="card-text">{{ serie.description }}</p>
+    <div class="card mt-2">
+        <div class="card-header">
+            <router-link :to="`/series/${serie.id}`"><h5 class="card-title">{{ serie.name }}</h5></router-link>
         </div>
-        <div class="card-footer">
-            <div class="progress">
-                <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" :aria-valuenow="booksReadInSerie" aria-valuemin="0" :aria-valuemax="serie.numberOfBooks"
-                    :style="`width: ${computePercentage}%`">
-                    {{ booksReadInSerie }} / {{ serie.numberOfBooks }}
+       
+        <div class="card-body row">
+            <div class="col-2">
+                <img class="img-fluid" v-bind:src="imageURL" alt="header image" />
+                <div class="progress mt-2" style="height: 20px;">
+                    <div class="progress-bar bg-secondary" role="progressbar" :aria-valuenow="booksReadInSerie" aria-valuemin="0" :aria-valuemax="serie.numberOfBooks"
+                        :style="`width: ${computePercentage}%`">
+                        {{ booksReadInSerie }} / {{ serie.numberOfBooks }}
+                    </div>
                 </div>
+            </div>
+            <div class="col">
+            <h5 class="card-title">{{ serie.name }}</h5>
+            <p class="card-text lead">{{ serie.description }}</p>
             </div>
         </div>
     </div>  

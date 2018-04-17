@@ -33,6 +33,10 @@ const store = new Vuex.Store({
         }
       })
     },
+    replaceSeries: (state) => (serie) => {
+      state.series.series = series.series.filter(s => s.id != serie.id)
+      state.series.series.push(serie)
+    },
     addBookToSeries(state, {seriesId, book}) {
       let id = 0
       state.series.series.forEach(serie => {

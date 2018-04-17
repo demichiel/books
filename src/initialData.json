@@ -1,8 +1,8 @@
 {
   "series": [{
     "id": 1,
-    "name": "Malazan",
-    "description": "Malazan description",
+    "name": "Malazan Book of the Fallen",
+    "description": "Malazan Book of the Fallen is a high fantasy book series by the Canadian author Steven Erikson. The series, published by Bantam Books in the U.K. and Tor Books in the U.S., consists of ten volumes, beginning with Gardens of the Moon (1999) and concluding with The Crippled God (2011). Erikson's series is extremely complex with a wide scope, and presents the narratives of a large cast of characters spanning thousands of years across multiple continents. His plotting presents a complicated series of events in the world upon which the Malazan Empire is located. Each of the first five novels is relatively self-contained, in that it resolves its respective primary conflict; but many underlying characters and events are interwoven throughout the works of the series, binding it together.",
     "author": "Steven Erikson",
     "publisher": "Tor Books",
     "numberOfBooks": 10,
@@ -44,11 +44,65 @@
       "wikilink": "https://en.wikipedia.org/wiki/House_of_Chains",
       "imglink": "https://upload.wikimedia.org/wikipedia/en/a/ab/House_of_Chains.jpg",
       "id": 13
+    }, {
+      "title": "Midnight Tides",
+      "description": "Midnight Tides is the fifth volume of Canadian author Steven Erikson's epic fantasy series, the Malazan Book of the Fallen. Although it is part of the larger series, it has only limited references to the previous books. However, it is not a stand-alone volume as the events of the books Reaper's Gale and Dust of Dreams follow on from it.",
+      "ISBN": "0-553-81314-5",
+      "numberInSeries": "5",
+      "read": true,
+      "wikilink": "https://en.wikipedia.org/wiki/Midnight_Tides",
+      "imglink": "https://upload.wikimedia.org/wikipedia/en/c/c9/MidnightTidesBookCover.jpg",
+      "id": 14
+    }, {
+      "title": "The Bonehunters",
+      "description": "The Bonehunters is the sixth volume in Canadian author Steven Erikson's epic fantasy series, the Malazan Book of the Fallen. The Bonehunters is a direct sequel to the fourth volume, House of Chains, and alludes to events in the fifth, Midnight Tides.",
+      "ISBN": " \t0-593-04630-7",
+      "numberInSeries": "6",
+      "read": true,
+      "wikilink": "https://en.wikipedia.org/wiki/The_Bonehunters",
+      "imglink": "https://upload.wikimedia.org/wikipedia/en/c/cf/The_Bonehunters_1st_ed.jpg",
+      "id": 15
+    }, {
+      "title": "Reaper's Gale",
+      "description": "Reaper's Gale is the seventh volume of Canadian author Steven Erikson's epic fantasy series, the Malazan Book of the Fallen. Reaper's Gale is a direct sequel to both the fifth and sixth volumes, Midnight Tides and The Bonehunters.",
+      "ISBN": "0-593-04631-5",
+      "numberInSeries": "7",
+      "read": true,
+      "wikilink": "https://en.wikipedia.org/wiki/Reaper%27s_Gale",
+      "imglink": "https://upload.wikimedia.org/wikipedia/en/3/3c/Reaper%27s_Gale.jpg",
+      "id": 16
+    }, {
+      "title": "Toll The Hounds",
+      "description": "Toll the Hounds is the eighth novel in Canadian author Steven Erikson's epic fantasy series, the Malazan Book of the Fallen. It was first published on June 30, 2008 in the UK and Canada, and on September 16, 2008 in the USA.",
+      "ISBN": "0-593-04638-2",
+      "numberInSeries": "8",
+      "read": true,
+      "wikilink": "https://en.wikipedia.org/wiki/Toll_The_Hounds",
+      "imglink": "https://upload.wikimedia.org/wikipedia/en/4/41/Toll_The_Hounds_Tor_Cover.jpg",
+      "id": 17
+    }, {
+      "title": "Dust of Dreams",
+      "description": "Dust of Dreams is the ninth novel in the Malazan Book of the Fallen epic fantasy series. It was first published in Canada and the UK in 2009. ",
+      "ISBN": "978-0-553-82480-3",
+      "numberInSeries": "9",
+      "read": true,
+      "wikilink": "http://malazan.wikia.com/wiki/Dust_of_Dreams",
+      "imglink": "https://vignette.wikia.nocookie.net/malazan/images/0/03/DustofDreams_cover.jpg/revision/latest?cb=20101228133026",
+      "id": 18
+    }, {
+      "title": "The Crippled God",
+      "description": "The Crippled God is the tenth and final volume of Canadian author Steven Erikson's epic fantasy series, the Malazan Book of the Fallen. In an interview, Erikson had mentioned that this book would be the second half of the series finale, with Dust of Dreams ending on a cliffhanger",
+      "ISBN": "978-0593046364",
+      "numberInSeries": "10",
+      "read": false,
+      "wikilink": "http://malazan.wikia.com/wiki/The_Crippled_God",
+      "imglink": "https://vignette.wikia.nocookie.net/malazan/images/5/5b/Crippled_god.jpg/revision/latest?cb=20101228134518",
+      "id": 19
     }]
   }, {
     "id": 5,
     "name": "Dresden Files",
-    "description": "Dresden Files description",
+    "description": "The Dresden Files is a series of contemporary fantasy/mystery novels written by American author Jim Butcher. The first novel, Storm Front, was published in 2000 by Roc Books.\n\nThe books are written as a first person narrative from the perspective of the main character, private investigator and wizard Harry Dresden, as he recounts investigations into supernatural disturbances in modern-day Chicago. Butcher's original proposed title for the first novel was Semiautomagic, which sums up the series' balance of fantasy and hard-boiled detective fiction.",
     "author": "Jim Butcher",
     "publisher": "Tor Books",
     "numberOfBooks": 15,
@@ -85,7 +139,7 @@
   }, {
     "id": 9,
     "name": "Lord of the Rings",
-    "description": "Lord of the Rings description",
+    "description": "The Lord of the Rings is an epic high fantasy novel written by English author and scholar J. R. R. Tolkien. The story began as a sequel to Tolkien's 1937 fantasy novel The Hobbit, but eventually developed into a much larger work. Written in stages between 1937 and 1949, The Lord of the Rings is one of the best-selling novels ever written, with over 150 million copies sold.",
     "author": "JRR Tolkien",
     "publisher": "Tor Books",
     "numberOfBooks": 10,

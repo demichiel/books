@@ -24,7 +24,7 @@
             <h5 class="text-right">Description</h5>
           </div>
           <div class="col">
-            <h5>{{ serie.description }}</h5>
+            <p class="lead">{{ serie.description }}</p>
           </div>
         </div>
         <div class="row">

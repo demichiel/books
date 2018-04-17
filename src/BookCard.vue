@@ -14,6 +14,7 @@
               <p class="card-text"><strong>ISBN: </strong>{{ book.ISBN }}</p>
               <p class="card-text" v-if="book.read"><strong>Read: Yes</strong></p>
               <p class="card-text" v-if="!book.read"><strong>Read: No</strong></p>
+              <a :href="book.wikilink"><button class="btn btn-outline-secondary"><i class="fab fa-wikipedia-w"></i> Wikipedia</button></a>
           </div>
         </div>
           <div class="card-footer">
