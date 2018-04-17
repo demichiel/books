@@ -1,13 +1,13 @@
 import Vue from 'vue'
 import Vuex from 'vuex'
 import VueRouter from 'vue-router'
-import App from './App.vue'
+import App from './components/App.vue'
 import store from './store'
-import SeriePage from './SeriePage.vue'
-import SeriesList from './SeriesList.vue'
-import EditBookPage from './EditBookPage.vue'
-import AddBookPage from './AddBookPage.vue'
-import EditSeriesPage from './EditSeriesPage.vue'
+import SeriePage from './components/SeriePage.vue'
+import SeriesList from './components/SeriesList.vue'
+import EditBookPage from './components/EditBookPage.vue'
+import AddBookPage from './components/AddBookPage.vue'
+import EditSeriesPage from './components/EditSeriesPage.vue'
 
 Vue.use(VueRouter)
 

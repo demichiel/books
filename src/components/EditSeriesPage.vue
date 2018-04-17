@@ -58,8 +58,8 @@
 </template>
 
 <script>
-import store from "./store";
-import Nav from "./Nav.vue";
+import store from "../store";
+import Nav from "../components/Nav.vue";
 
 export default {
   data() {

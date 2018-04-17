@@ -1,6 +1,6 @@
 <template>
     <div class="app">
-        <h1>Add new book</h1>
+        <h1>Edit {{ book.title }}</h1>
         <form>
             <div class="form-group row">
                 <label for="inputTitle" class="col-sm-2 col-form-label">Title</label>
@@ -35,13 +35,13 @@
             <div class="form-group row">
                 <label for="inputWikiLink" class="col-sm-2 col-form-label">Wiki link</label>
                 <div class="col-sm-10">
-                <input type="url" class="form-control" id="inputWikiLink" v-model="book.wikilink" placeholder="http://wikipedia.com">
+                <input type="url" class="form-control" id="inputWikiLink" placeholder="1" v-model="book.wikilink">
                 </div>
             </div>
             <div class="form-group row">
                 <label for="inputImgLink" class="col-sm-2 col-form-label">Image link</label>
                 <div class="col-sm-10">
-                <input type="url" class="form-control" id="inputImgLink" v-model="book.imglink" placeholder="http://wikipedia.com/image.jpg">
+                <input type="url" class="form-control" id="inputImgLink" placeholder="1" v-model="book.imglink">
                 </div>
             </div>
             <div class="form-group row">
@@ -49,7 +49,7 @@
 
                 </div>
                 <div class="col-sm-10">
-                    <button type="button" class="btn btn-success" @click="addBook"><i class="fas fa-plus"></i> Add Book</button>
+                    <button type="button" class="btn btn-primary" @click="editBook"><i class="fas fa-pencil-alt"></i> Edit Book</button>
                     <button type="button" class="btn btn-danger" @click="cancel"><i class="fa fa-ban"></i> Cancel</button>
                 </div>
             </div>
@@ -58,8 +58,8 @@
 </template>
 
 <script>
-import store from "./store";
-import Nav from "./Nav.vue";
+import store from "../store";
+import Nav from "../components/Nav.vue";
 
 export default {
   data() {
@@ -67,36 +67,21 @@ export default {
       book: {}
     };
   },
-  computed: {
-    seriesId() {
-      return parseInt(this.$route.params.seriesId);
-    }
+  created() {
+    this.book = store.getters.getBookById(parseInt(this.$route.params.id));
+  },
+  components: {
+    Nav
   },
   methods: {
-    addBook() {
-      store.commit("addBookToSeries", {
-          seriesId: this.seriesId, 
-          book: this.book
-          });
-      store.commit("saveToLocalStorage");
-      this.$router.go(-1);
+    editBook() {
+      store.commit('replaceBook', this.book);
+      store.commit('saveToLocalStorage')
+      this.$router.go(-1)
     },
     cancel() {
-      this.$router.go(-1);
+      this.$router.go(-1)
     }
-  },
-  created() {
-    this.book = {
-      title: "",
-      description: "",
-      ISBN: "",
-      numberInSeries: 0,
-      read: false,
-      wikilink: "",
-      imglink: ""
-    };
   }
 };
 </script>
-
-

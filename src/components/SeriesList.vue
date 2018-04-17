@@ -5,8 +5,8 @@
 </template>
 
 <script>
-import store from "./store";
-import SerieCard from "./SerieCard.vue";
+import store from "../store";
+import SerieCard from "../components/SerieCard.vue";
 
 export default {
   computed: {

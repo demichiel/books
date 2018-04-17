@@ -11,9 +11,9 @@
 </template>
 
 <script>
-import store from "./store"
-import SeriesList from './SeriesList.vue'
-import Nav from './Nav.vue'
+import store from "../store"
+import SeriesList from '../components/SeriesList.vue'
+import Nav from '../components/Nav.vue'
 
 export default {
   name: "app",

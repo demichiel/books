@@ -66,10 +66,10 @@
 </template>
 
 <script>
-import store from "./store"
-import Nav from './Nav.vue'
-import BookCard from './BookCard.vue'
-import AddBookPage from './AddBookPage.vue'
+import store from "../store"
+import Nav from '../components/Nav.vue'
+import BookCard from '../components/BookCard.vue'
+import AddBookPage from '../components/AddBookPage.vue'
 
 export default {
   computed: {
