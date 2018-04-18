@@ -8,11 +8,13 @@ import SeriesList from './components/SeriesList.vue'
 import EditBookPage from './components/EditBookPage.vue'
 import AddBookPage from './components/AddBookPage.vue'
 import EditSeriesPage from './components/EditSeriesPage.vue'
+import AddSeriesPage from './components/AddSeriesPage.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   { path: '/', component: SeriesList},
+  { path: '/series/add', component: AddSeriesPage}, 
   { path: '/series/:id', component: SeriePage}, 
   { path: '/series/:seriesId/books/:id', component: EditBookPage}, 
   { path: '/series/:seriesId/add', component: AddBookPage}, 
@@ -22,7 +24,7 @@ const routes = [
 const router = new VueRouter({
   routes,
   mode: 'history',
-  linkActiveClass: 'active'
+  linkActiveClass: 'active',
 })
 
 new Vue({

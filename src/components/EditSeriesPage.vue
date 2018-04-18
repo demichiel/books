@@ -45,6 +45,12 @@
                 </div>
             </div>
             <div class="form-group row">
+                <label for="inputImgLink" class="col-sm-2 col-form-label">Image</label>
+                <div class="col-sm-10">
+                    <img :src="serie.imglink"  style="width: 10rem;" />
+                </div>
+            </div>
+            <div class="form-group row">
                 <div class="col-sm-2">
 
                 </div>

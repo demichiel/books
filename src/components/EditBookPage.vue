@@ -28,8 +28,14 @@
             </div>
             <div class="form-group row">
                 <label class="col-sm-2 col-form-label" for="inlineCheckbox2">Read</label>
-                <div class="col-sm-10">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox2" v-model="book.read" style="display: block">
+                <div class="col-sm-10 pt-2">
+                  <div class="pretty p-icon p-smooth">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox2" v-model="book.read">
+                    <div class="state p-primary">
+                        <i class="icon fa fa-check"></i>
+                        <label></label>
+                    </div>
+                  </div>
                 </div>
             </div>
             <div class="form-group row">
@@ -42,6 +48,12 @@
                 <label for="inputImgLink" class="col-sm-2 col-form-label">Image link</label>
                 <div class="col-sm-10">
                 <input type="url" class="form-control" id="inputImgLink" placeholder="1" v-model="book.imglink">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label for="inputImgLink" class="col-sm-2 col-form-label">Image</label>
+                <div class="col-sm-10">
+                    <img :src="book.imglink" style="width: 10rem;" />
                 </div>
             </div>
             <div class="form-group row">

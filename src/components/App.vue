@@ -3,7 +3,8 @@
     <div class="container">
       <Nav />
       <div class="jumbotron">
-        <h1 class="display-4">Books I've Read</h1>
+        <h1 class="display-4">Leeslijst</h1>
+        <p class="lead">A place to keep track of the books I'm reading</p>
       </div>
       <router-view />
     </div>

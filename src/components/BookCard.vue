@@ -10,7 +10,7 @@
           <img class="img-fluid" v-bind:src="imageURL" alt="header image" />
         </div>
         <div class="col-10">
-              <p class="card-text">{{ book.description }}</p>
+              <p class="card-text" style="white-space: pre-line;">{{ book.description }}</p>
               <p class="card-text"><strong>ISBN: </strong>{{ book.ISBN }}</p>
               <p class="card-text" v-if="book.read"><strong>Read: Yes</strong></p>
               <p class="card-text" v-if="!book.read"><strong>Read: No</strong></p>
