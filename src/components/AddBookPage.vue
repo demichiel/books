@@ -80,6 +80,7 @@ export default {
   },
   methods: {
     addBook() {
+      this.book.id = store.getters.getHighestId + 1
       store.commit("addBookToSeries", {
           seriesId: this.seriesId, 
           book: this.book

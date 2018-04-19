@@ -189,5 +189,42 @@
       "wikilink": "https://en.wikipedia.org/wiki/The_Return_of_the_King",
       "imglink": "https://upload.wikimedia.org/wikipedia/en/1/11/The_Return_of_the_King_cover.gif"
     }]
+  }, {
+    "name": "The Stormlight Archive",
+    "description": "The Stormlight Archive is an ongoing epic fantasy novel series written by American author Brandon Sanderson. The first of ten planned volumes, The Way of Kings, was published on August 31, 2010. The second, Words of Radiance, was published on March 4, 2014. The third, Oathbringer, was published on November 14, 2017.",
+    "author": "Brandon Sanderson",
+    "numberOfBooks": "10",
+    "books": [{
+      "title": "The Way of Kings",
+      "description": "The Way of Kings is an epic fantasy novel written by American author Brandon Sanderson and the first book in The Stormlight Archive series. The novel was published on August 31, 2010 by Tor Books. The Way of Kings consists of one prelude, one prologue, 75 chapters, an epilogue and 9 interludes. It was followed by Words of Radiance in 2014.\n\nIn 2011, it won the David Gemmell Legend Award for best novel. The unabridged audiobook is read by narrator team Michael Kramer and Kate Reading.",
+      "ISBN": " \t978-0-7653-2635-5",
+      "numberInSeries": "1",
+      "read": true,
+      "wikilink": "https://en.wikipedia.org/wiki/The_Way_of_Kings",
+      "imglink": "https://upload.wikimedia.org/wikipedia/en/8/8b/TheWayOfKings.png",
+      "id": 14
+    }, {
+      "title": "Words of Radiance",
+      "description": "Words of Radiance is an epic fantasy novel written by American author Brandon Sanderson and the second book in The Stormlight Archive series. The novel was published on March 4, 2014 by Tor Books. Words of Radiance consists of one prologue, 89 chapters, an epilogue and 14 interludes. It is preceded by The Way of Kings and followed by Oathbringer.\n\nIn 2015, it won the David Gemmell Legend Award for best novel. The unabridged audiobook is read by narrator team Michael Kramer and Kate Reading.",
+      "ISBN": "978-0-7653-2636-2",
+      "numberInSeries": "2",
+      "read": true,
+      "wikilink": "https://en.wikipedia.org/wiki/Words_of_Radiance",
+      "imglink": "https://upload.wikimedia.org/wikipedia/en/e/e0/WordsOfRadianceCover.png",
+      "id": 15
+    }, {
+      "title": "Oathbringer",
+      "description": "Oathbringer is an epic fantasy novel written by American author Brandon Sanderson and the third book in The Stormlight Archive series. It was published by Tor Books on November 14, 2017. Oathbringer consists of one prologue, 122 chapters, 14 interludes and an epilogue. It is preceded by Words of Radiance.",
+      "ISBN": "978-0-7653-2637-9",
+      "numberInSeries": "3",
+      "read": false,
+      "wikilink": "https://en.wikipedia.org/wiki/Oathbringer",
+      "imglink": "https://upload.wikimedia.org/wikipedia/en/5/5d/Brandon_Sanderson_Oathbringer_book_cover.jpg",
+      "id": 16
+    }],
+    "publisher": "Tor Books",
+    "wikilink": "https://en.wikipedia.org/wiki/The_Stormlight_Archive",
+    "imglink": "https://upload.wikimedia.org/wikipedia/en/8/8b/TheWayOfKings.png",
+    "id": 13
   }]
 }

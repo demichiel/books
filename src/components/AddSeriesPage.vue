@@ -75,8 +75,7 @@ export default {
   },
   methods: {
     addSerie() {
-      console.log('Enter AddSeriesPage addSerie()')
-      console.log(this.serie)
+      this.serie.id = store.getters.getHighestId + 1
       store.commit('addSeries', this.serie)
       store.commit('saveToLocalStorage')
       this.$router.go(-1);

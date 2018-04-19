@@ -38,26 +38,9 @@ const store = new Vuex.Store({
       state.series.series.push(serie)
     },
     addBookToSeries(state, {seriesId, book}) {
-      let id = 0
-      state.series.series.forEach(serie => {
-        if (serie.id > id) {
-          id = serie.id
-          serie.books.forEach(b => {
-            if (b.id > id) {
-              id = b.id
-            }
-          })
-        }
-      })
-      book.id = id + 1
-      console.log('start addBookToSeries seriesId: ' + seriesId + ' book: ' + book)
       state.series.series.find(s => s.id === seriesId).books.push(book)
     },
-    addSeries: (state) => (serie) => {
-      console.log('Enter index.js addSerie')
-      console.log(serie)
-      serie.id = this.getMaxId(state) + 1
-      console.log(serie)
+    addSeries(state, serie) {
       state.series.series.push(serie)
     },
   },
