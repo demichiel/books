@@ -39,6 +39,18 @@
                 </div>
             </div>
             <div class="form-group row">
+                <label class="col-sm-2 col-form-label" for="inlineCheckbox3">Currently Reading</label>
+                <div class="col-sm-10 pt-2">
+                  <div class="pretty p-icon p-smooth">
+                    <input class="form-check-input" type="checkbox" id="inlineCheckbox3" v-model="book.currentlyReading">
+                    <div class="state p-primary">
+                        <i class="icon fa fa-check"></i>
+                        <label></label>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <div class="form-group row">
                 <label for="inputWikiLink" class="col-sm-2 col-form-label">Wiki link</label>
                 <div class="col-sm-10">
                 <input type="url" class="form-control" id="inputWikiLink" placeholder="1" v-model="book.wikilink">

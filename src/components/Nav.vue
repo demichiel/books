@@ -17,6 +17,9 @@
                  <router-link class="dropdown-item"  v-for="serie in series" :key="serie.id" :to="`/series/${serie.id}`" :style="{ cursor: 'pointer'}">{{ serie.name }}</router-link>
               </div>
             </li>
+            <li class="nav-item">
+                <router-link to="/current" class="nav-link" exact>Currently Reading</router-link>
+            </li>
         </ul>
   </div>
   </nav>

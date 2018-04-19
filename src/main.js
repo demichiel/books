@@ -9,11 +9,13 @@ import EditBookPage from './components/EditBookPage.vue'
 import AddBookPage from './components/AddBookPage.vue'
 import EditSeriesPage from './components/EditSeriesPage.vue'
 import AddSeriesPage from './components/AddSeriesPage.vue'
+import CurrentlyReadingPage from './components/CurrentlyReadingPage.vue'
 
 Vue.use(VueRouter)
 
 const routes = [
   { path: '/', component: SeriesList},
+  { path: '/current', component: CurrentlyReadingPage},
   { path: '/series/add', component: AddSeriesPage}, 
   { path: '/series/:id', component: SeriePage}, 
   { path: '/series/:seriesId/books/:id', component: EditBookPage}, 
@@ -25,6 +27,13 @@ const router = new VueRouter({
   routes,
   mode: 'history',
   linkActiveClass: 'active',
+  scrollBehavior (to, from, savedPosition) {
+    if (savedPosition) {
+      return savedPosition
+    } else {
+      return { x: 0, y: 0 }
+    }
+  },
 })
 
 new Vue({

@@ -77,7 +77,18 @@ const store = new Vuex.Store({
         }
       })
       return id
-    }
+    },
+    getCurrentlyReading: (state) => {
+      let books = []
+      state.series.series.forEach(serie => {
+        serie.books.forEach(book => {
+          if (book.currentlyReading) {
+            books.push(book)
+          }
+        })
+      })
+      return books
+    },
   }
 })
 

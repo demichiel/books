@@ -21,6 +21,7 @@
             <div class="col">
             <h5 class="card-title">{{ serie.name }}</h5>
             <p class="card-text lead" style="white-space: pre-line;">{{ serie.description }}</p>
+            <a :href="serie.wikilink"><button class="btn btn-outline-secondary"><i class="fab fa-wikipedia-w"></i> Wikipedia</button></a>
             </div>
         </div>
     </div>  
