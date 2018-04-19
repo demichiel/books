@@ -200,6 +200,7 @@
       "ISBN": " \t978-0-7653-2635-5",
       "numberInSeries": "1",
       "read": true,
+      "currentlyReading": false,
       "wikilink": "https://en.wikipedia.org/wiki/The_Way_of_Kings",
       "imglink": "https://upload.wikimedia.org/wikipedia/en/8/8b/TheWayOfKings.png",
       "id": 21
@@ -209,6 +210,7 @@
       "ISBN": "978-0-7653-2636-2",
       "numberInSeries": "2",
       "read": true,
+      "currentlyReading": false,
       "wikilink": "https://en.wikipedia.org/wiki/Words_of_Radiance",
       "imglink": "https://upload.wikimedia.org/wikipedia/en/e/e0/WordsOfRadianceCover.png",
       "id": 22
@@ -218,6 +220,7 @@
       "ISBN": "978-0-7653-2637-9",
       "numberInSeries": "3",
       "read": false,
+      "currentlyReading": false,
       "wikilink": "https://en.wikipedia.org/wiki/Oathbringer",
       "imglink": "https://upload.wikimedia.org/wikipedia/en/5/5d/Brandon_Sanderson_Oathbringer_book_cover.jpg",
       "id": 23
