@@ -1,6 +1,6 @@
 # books
 
-> Een SPA gemaakt met VueJS om de boeken die ik aan het lezen ben bij te houden. Op de eerste load wordt er data geladen uit een [JSON](src/initialData.json) file in de Local Storage, vanaf dan wordt de data bijgehouden per browser. Je kan een online demo bekijken op https://books.proeftu.in .
+> Een SPA gemaakt met VueJS om de boeken die ik aan het lezen ben bij te houden. Op de eerste load wordt er data geladen uit een [JSON](src/initialData.json) file in de Local Storage, vanaf dan wordt de data bijgehouden per browser. Je kan een online demo bekijken op [https://books.proeftu.in](https://books.proeftu.in) .
 
 ## Setup
 
