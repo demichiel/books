@@ -14,7 +14,9 @@
                 <div class="progress mt-2" style="height: 20px;">
                     <div class="progress-bar bg-secondary" role="progressbar" :aria-valuenow="booksReadInSerie" aria-valuemin="0" :aria-valuemax="serie.numberOfBooks"
                         :style="`width: ${computePercentage}%`">
-                        {{ booksReadInSerie }} / {{ serie.numberOfBooks }}
+                        <small>
+                        {{ booksReadInSerie }}/{{ serie.numberOfBooks }}
+                        </small>
                     </div>
                 </div>
             </div>

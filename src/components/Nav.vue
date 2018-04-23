@@ -18,7 +18,7 @@
               </div>
             </li>
             <li class="nav-item">
-                <router-link to="/current" class="nav-link" exact>Currently Reading</router-link>
+                <router-link to="/current" class="nav-link" exact>Currently Reading ({{ currentlyReadingCount }})</router-link>
             </li>
         </ul>
   </div>
@@ -27,10 +27,14 @@
 
 <script>
   import store from "../store";
+
   export default {
     computed: {
       series() {
         return store.state.series.series;
+      },
+      currentlyReadingCount() {
+        return store.getters.getCurrentlyReading.length
       }
     }
   };
