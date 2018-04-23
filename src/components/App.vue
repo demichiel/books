@@ -19,7 +19,7 @@
 import store from "../store"
 import SeriesList from '../components/SeriesList.vue'
 import Nav from '../components/Nav.vue'
-import Vivus from 'Vivus'
+import Vivus from 'vivus'
 
 export default {
   name: "app",
