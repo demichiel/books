@@ -3,7 +3,6 @@ node_modules/
 dist/
 npm-debug.log
 yarn-error.log
-.vscode/
 
 # Editor directories and files
 .idea
@@ -12,3 +11,4 @@ yarn-error.log
 *.njsproj
 *.sln
 src/test.js
+.vscode
