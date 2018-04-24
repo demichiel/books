@@ -34,8 +34,7 @@ export default {
   },
   mounted() {
     new Vivus('my-svg', {
-      reverseStack: true,
-      type: 'sync',
+      type: 'oneByOne',
       duration: 200,
       animTimingFunction: Vivus.EASE,
     })
@@ -43,8 +42,7 @@ export default {
   methods: {
     restartAnimation () {
       var viv = new Vivus('my-svg', {
-        reverseStack: true,
-        type: 'sync',
+        type: 'oneByOne',
         duration: 100,
         animTimingFunction: Vivus.EASE,
       })
