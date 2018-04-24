@@ -2,7 +2,7 @@
   <div id="app">
     <div class="container">
       <Nav />
-      <div class="jumbotron">
+      <div class="jumbotron" @click="restartAnimation">
         <div class="row">
           <div class="col-2"><object id="my-svg" type="image/svg+xml" :data="require('../assets/book.svg')"></object></div>
           <div class="col">
@@ -34,11 +34,22 @@ export default {
   },
   mounted() {
     new Vivus('my-svg', {
-    reverseStack: true,
-    type: 'sync',
-    duration: 200,
-    animTimingFunction: Vivus.EASE,
+      reverseStack: true,
+      type: 'sync',
+      duration: 200,
+      animTimingFunction: Vivus.EASE,
     })
+  },
+  methods: {
+    restartAnimation () {
+      var viv = new Vivus('my-svg', {
+        reverseStack: true,
+        type: 'sync',
+        duration: 100,
+        animTimingFunction: Vivus.EASE,
+      })
+      viv.reset()
+    }
   }
 }
 </script>
