@@ -10,11 +10,18 @@
           <img class="img-fluid" v-bind:src="imageURL" alt="header image" />
         </div>
         <div class="col-10">
-              <p class="card-text" style="white-space: pre-line;">{{ book.description }}</p>
-              <p class="card-text"><strong>ISBN: </strong>{{ book.ISBN }}</p>
-              <p class="card-text" v-if="book.read"><strong>Read: Yes</strong></p>
-              <p class="card-text" v-if="!book.read"><strong>Read: No</strong></p>
-              <a :href="book.wikilink"><button class="btn btn-outline-secondary"><i class="fab fa-wikipedia-w"></i> Wikipedia</button></a>
+              <p class="card-text mb-1" style="white-space: pre-line;">{{ book.description }}</p>
+              <p class="card-text mb-1"><strong>ISBN: </strong>{{ book.ISBN }}</p>
+              <p class="card-text mb-1" v-if="book.read"><strong>Read: Yes</strong></p>
+              <p class="card-text mb-1" v-if="!book.read"><strong>Read: No</strong></p>
+              <div class="pretty p-icon p-smooth mb-2">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" v-model="book.currentlyReading" @click="currentlyReadingClicked">
+                  <div class="state p-primary">
+                      <i class="icon fa fa-check"></i>
+                      <label>Currently Reading</label>
+                  </div>
+                </div>
+              <a :href="book.wikilink" class="d-block"><button class="btn btn-outline-secondary"><i class="fab fa-wikipedia-w"></i> Wikipedia</button></a>
           </div>
         </div>
           <div class="card-footer">
@@ -47,9 +54,12 @@ export default {
         "card float-left m-1 text-white bg-danger"
       );
       if (confirm("Are you sure you want to delete " + this.book.name + "?")) {
-        store.commit("deleteBookById", this.book.id);
+        store.commit("deleteBookById", this.book.id)
       }
-      this.$refs.thecard.setAttribute("class", "card float-left m-1");
+      this.$refs.thecard.setAttribute("class", "card float-left m-1")
+    },
+    currentlyReadingClicked() {
+      store.commit('saveToLocalStorage')
     }
   }
 };
