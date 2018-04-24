@@ -19,6 +19,15 @@ npm run build
 
 ## Gebruikte technologieën
 
-- [VueJS](https://vuejs.org/)
-- [vue-router](https://router.vuejs.org/en/)
-- [Vuex](https://vuex.vuejs.org/en/)
+- [VueJS](https://vuejs.org/) JS Framework
+- [vue-router](https://router.vuejs.org/en/) Router (navlinks)
+- [Vuex](https://vuex.vuejs.org/en/) Shared state
+- [Vivus](https://maxwellito.github.io/vivus/) SVG Animation
+
+## TODO
+
+- [ ] 'Currently reading'-knop toevoegen aan bookcard
+- [ ] 'Delete Series'-knop toevoegen aan SeriesCard of SeriesPage
+- [ ] Rating systeem toevoegen
+- [ ] Export bibliotheek in JSON
+- [ ] Import JSON bibliotheek
