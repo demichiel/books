@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div class="container">
+    <div class="container mb-3">
       <Nav />
       <div class="jumbotron" @click="restartAnimation">
         <div class="row">

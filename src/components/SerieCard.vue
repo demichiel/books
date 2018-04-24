@@ -27,7 +27,7 @@
             </div>
         </div>
         <div class="card-footer">
-            <router-link :to="`/series/${parseInt(this.$route.params.id)}/edit`">
+            <router-link :to="`/series/${serie.id}/edit`">
             <button class="btn btn-outline-primary float-left"><i class="fas fa-pencil-alt"></i> Edit</button>
             </router-link>
             <button class="btn btn-outline-danger float-right" @click="deleteSeries"><i class="fas fa-trash"></i> Delete</button>

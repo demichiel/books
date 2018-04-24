@@ -4,7 +4,7 @@
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="navbar-collapse" id="navbarText">
+  <div class="navbar-collapse justify-content-between" id="navbarText">
         <ul class="navbar-nav">
             <li class="nav-item">
                 <router-link to="/" class="nav-link" exact>Home</router-link>
@@ -21,6 +21,7 @@
                 <router-link to="/current" class="nav-link" exact>Currently Reading ({{ currentlyReadingCount }})</router-link>
             </li>
         </ul>
+        <a href="https://github.com/demichiel/books"><button class="btn btn-outline-secondary btn-sm"><i class="fab fa-github"></i></button></a>
   </div>
   </nav>
 </template>
