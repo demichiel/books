@@ -12,8 +12,8 @@
         <div class="col-10">
               <p class="card-text mb-1" style="white-space: pre-line;">{{ book.description }}</p>
               <p class="card-text mb-1"><strong>ISBN: </strong>{{ book.ISBN }}</p>
-              <p class="card-text mb-1" v-if="book.read"><strong>Read: Yes</strong></p>
-              <p class="card-text mb-1" v-if="!book.read"><strong>Read: No</strong></p>
+              <p class="card-text mb-1" v-if="book.read"><strong>Read:</strong> Yes</p>
+              <p class="card-text mb-1" v-if="!book.read"><strong>Read:</strong> No</p>
               <div class="pretty p-icon p-smooth mb-2">
                 <input class="form-check-input" type="checkbox" id="inlineCheckbox3" v-model="book.currentlyReading" @click="currentlyReadingClicked">
                   <div class="state p-primary">
@@ -21,6 +21,8 @@
                       <label>Currently Reading</label>
                   </div>
                 </div>
+                <p class="card-text mb-1"><strong>Rating: </strong><Rating :rating="book.rating"></Rating></p>
+                
               <a :href="book.wikilink" class="d-block"><button class="btn btn-outline-secondary"><i class="fab fa-wikipedia-w"></i> Wikipedia</button></a>
           </div>
         </div>
@@ -36,6 +38,7 @@
 
 <script>
 import store from "../store";
+import Rating from "./Rating.vue"
 
 export default {
   props: ["book"],
@@ -62,6 +65,9 @@ export default {
     currentlyReadingClicked() {
       store.commit('saveToLocalStorage')
     }
+  },
+  components: {
+    Rating
   }
 };
 </script>

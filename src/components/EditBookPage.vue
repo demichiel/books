@@ -27,6 +27,12 @@
                 </div>
             </div>
             <div class="form-group row">
+                <label for="inputNumber" class="col-sm-2 col-form-label">Rating</label>
+                <div class="col-sm-10">
+                <input type="number" class="form-control" id="inputNumber" placeholder="1" v-model="book.rating" min="0" max="5">
+                </div>
+            </div>
+            <div class="form-group row">
                 <label class="col-sm-2 col-form-label" for="inlineCheckbox2">Read</label>
                 <div class="col-sm-10 pt-2">
                   <div class="pretty p-icon p-smooth">
@@ -84,6 +90,7 @@
 <script>
 import store from "../store";
 import Nav from "../components/Nav.vue";
+import Rating from "../components/Rating.vue"
 
 export default {
   data() {
@@ -95,7 +102,8 @@ export default {
     this.book = store.getters.getBookById(parseInt(this.$route.params.id));
   },
   components: {
-    Nav
+    Nav,
+    Rating
   },
   methods: {
     editBook() {

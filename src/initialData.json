@@ -16,6 +16,7 @@
       "numberInSeries": 1,
       "read": true,
       "currentlyReading": false,
+      "rating": 4,
       "wikilink": "https://en.wikipedia.org/wiki/Gardens_of_the_Moon",
       "imglink": "https://upload.wikimedia.org/wikipedia/en/7/76/Three_Gardens_of_the_Moon.jpg"
     }, {
@@ -26,6 +27,7 @@
       "numberInSeries": 2,
       "read": true,
       "currentlyReading": false,
+      "rating": 4,
       "wikilink": "https://en.wikipedia.org/wiki/Deadhouse_Gates",
       "imglink": "https://upload.wikimedia.org/wikipedia/en/1/11/Deadhouse_Gates.jpg"
     }, {
@@ -36,6 +38,7 @@
       "numberInSeries": 3,
       "read": true,
       "currentlyReading": false,
+      "rating": 4,
       "wikilink": "https://en.wikipedia.org/wiki/Memories_of_Ice",
       "imglink": "https://upload.wikimedia.org/wikipedia/en/0/04/Memories_Of_Ice_Cover.jpg"
     }, {
@@ -45,6 +48,7 @@
       "numberInSeries": "4",
       "read": true,
       "currentlyReading": false,
+      "rating": 4,
       "wikilink": "https://en.wikipedia.org/wiki/House_of_Chains",
       "imglink": "https://upload.wikimedia.org/wikipedia/en/a/ab/House_of_Chains.jpg",
       "id": 13
@@ -55,6 +59,7 @@
       "numberInSeries": "5",
       "read": true,
       "currentlyReading": false,
+      "rating": 4,
       "wikilink": "https://en.wikipedia.org/wiki/Midnight_Tides",
       "imglink": "https://upload.wikimedia.org/wikipedia/en/c/c9/MidnightTidesBookCover.jpg",
       "id": 14
@@ -65,6 +70,7 @@
       "numberInSeries": "6",
       "read": true,
       "currentlyReading": false,
+      "rating": 4,
       "wikilink": "https://en.wikipedia.org/wiki/The_Bonehunters",
       "imglink": "https://upload.wikimedia.org/wikipedia/en/c/cf/The_Bonehunters_1st_ed.jpg",
       "id": 15
@@ -75,6 +81,7 @@
       "numberInSeries": "7",
       "read": true,
       "currentlyReading": false,
+      "rating": 4,
       "wikilink": "https://en.wikipedia.org/wiki/Reaper%27s_Gale",
       "imglink": "https://upload.wikimedia.org/wikipedia/en/3/3c/Reaper%27s_Gale.jpg",
       "id": 16
@@ -85,6 +92,7 @@
       "numberInSeries": "8",
       "read": true,
       "currentlyReading": false,
+      "rating": 4,
       "wikilink": "https://en.wikipedia.org/wiki/Toll_The_Hounds",
       "imglink": "https://upload.wikimedia.org/wikipedia/en/4/41/Toll_The_Hounds_Tor_Cover.jpg",
       "id": 17
@@ -95,6 +103,7 @@
       "numberInSeries": "9",
       "read": true,
       "currentlyReading": false,
+      "rating": 4,
       "wikilink": "http://malazan.wikia.com/wiki/Dust_of_Dreams",
       "imglink": "https://vignette.wikia.nocookie.net/malazan/images/0/03/DustofDreams_cover.jpg/revision/latest?cb=20101228133026",
       "id": 18
@@ -105,6 +114,7 @@
       "numberInSeries": "10",
       "read": false,
       "currentlyReading": true,
+      "rating": 4,
       "wikilink": "http://malazan.wikia.com/wiki/The_Crippled_God",
       "imglink": "https://vignette.wikia.nocookie.net/malazan/images/5/5b/Crippled_god.jpg/revision/latest?cb=20101228134518",
       "id": 19
@@ -126,6 +136,7 @@
       "numberInSeries": 1,
       "read": true,
       "currentlyReading": false,
+      "rating": 4,
       "wikilink": "https://en.wikipedia.org/wiki/Storm_Front_(The_Dresden_Files)",
       "imglink": "https://upload.wikimedia.org/wikipedia/en/2/2b/Storm_Front.png"
     }, {
@@ -136,6 +147,7 @@
       "numberInSeries": 2,
       "read": true,
       "currentlyReading": false,
+      "rating": 4,
       "wikilink": "https://en.wikipedia.org/wiki/Fool_Moon_(The_Dresden_Files)",
       "imglink": "https://upload.wikimedia.org/wikipedia/en/f/fd/Fool_Moon.jpg"
     }, {
@@ -146,6 +158,7 @@
       "numberInSeries": 3,
       "read": false,
       "currentlyReading": true,
+      "rating": 4,
       "wikilink": "https://en.wikipedia.org/wiki/Grave_Peril_(The_Dresden_Files)",
       "imglink": "https://upload.wikimedia.org/wikipedia/en/f/ff/Grave_Peril.jpg"
     }]
@@ -166,6 +179,7 @@
       "numberInSeries": 1,
       "read": false,
       "currentlyReading": false,
+      "rating": 4,
       "wikilink": "https://en.wikipedia.org/wiki/The_Fellowship_of_the_Ring",
       "imglink": "https://upload.wikimedia.org/wikipedia/en/8/8e/The_Fellowship_of_the_Ring_cover.gif"
     }, {
@@ -176,6 +190,7 @@
       "numberInSeries": 2,
       "read": false,
       "currentlyReading": false,
+      "rating": 4,
       "wikilink": "https://en.wikipedia.org/wiki/The_Two_Towers",
       "imglink": "https://upload.wikimedia.org/wikipedia/en/a/a1/The_Two_Towers_cover.gif"
     }, {
@@ -186,6 +201,7 @@
       "numberInSeries": 3,
       "read": false,
       "currentlyReading": false,
+      "rating": 4,
       "wikilink": "https://en.wikipedia.org/wiki/The_Return_of_the_King",
       "imglink": "https://upload.wikimedia.org/wikipedia/en/1/11/The_Return_of_the_King_cover.gif"
     }]
@@ -201,6 +217,7 @@
       "numberInSeries": "1",
       "read": true,
       "currentlyReading": false,
+      "rating": 4,
       "wikilink": "https://en.wikipedia.org/wiki/The_Way_of_Kings",
       "imglink": "https://upload.wikimedia.org/wikipedia/en/8/8b/TheWayOfKings.png",
       "id": 21
@@ -211,6 +228,7 @@
       "numberInSeries": "2",
       "read": true,
       "currentlyReading": false,
+      "rating": 4,
       "wikilink": "https://en.wikipedia.org/wiki/Words_of_Radiance",
       "imglink": "https://upload.wikimedia.org/wikipedia/en/e/e0/WordsOfRadianceCover.png",
       "id": 22
@@ -221,6 +239,7 @@
       "numberInSeries": "3",
       "read": false,
       "currentlyReading": false,
+      "rating": 4,
       "wikilink": "https://en.wikipedia.org/wiki/Oathbringer",
       "imglink": "https://upload.wikimedia.org/wikipedia/en/5/5d/Brandon_Sanderson_Oathbringer_book_cover.jpg",
       "id": 23
