@@ -27,7 +27,7 @@ npm run build
 ## TODO
 
 - [x] 'Currently reading'-knop toevoegen aan bookcard
-- [ ] 'Delete Series'-knop toevoegen aan SeriesCard of SeriesPage
+- [x] 'Delete Series'-knop toevoegen aan SeriesCard of SeriesPage
 - [ ] Rating systeem toevoegen
 - [ ] Export bibliotheek in JSON
 - [ ] Import JSON bibliotheek
