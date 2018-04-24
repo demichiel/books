@@ -25,6 +25,9 @@ const store = new Vuex.Store({
         serie.books = serie.books.filter(book => book.id != id)
       })
     },
+    deleteSeriesById(state, id) {
+      state.series.series = state.series.series.filter(s => s.id != id)
+    },
     replaceBook: (state) => (book) => {
       state.series.series.forEach(serie => {
         if (serie.books.find(b => b.id === book.id)) {

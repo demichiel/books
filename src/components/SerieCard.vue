@@ -1,5 +1,5 @@
 <template>
-    <div class="card mt-2 text-dark">
+    <div class="card mt-2 text-dark" ref="thecard">
         <div class="card-header">
             <router-link :to="`/series/${serie.id}`">
                 <h5 class="card-title text-dark"><i class="fas fa-angle-double-right"></i> {{ serie.name }}</h5>
@@ -26,26 +26,44 @@
             <a :href="serie.wikilink"><button class="btn btn-outline-secondary"><i class="fab fa-wikipedia-w"></i> Wikipedia</button></a>
             </div>
         </div>
+        <div class="card-footer">
+            <router-link :to="`/series/${parseInt(this.$route.params.id)}/edit`">
+            <button class="btn btn-outline-primary float-left"><i class="fas fa-pencil-alt"></i> Edit</button>
+            </router-link>
+            <button class="btn btn-outline-danger float-right" @click="deleteSeries"><i class="fas fa-trash"></i> Delete</button>
+        </div>
     </div>  
 </template>
 
 <script>
-    export default {
-      props: ["serie"],
-      computed: {
-        imageURL() {
-          return this.serie.imglink;
-        },
-        booksReadInSerie() {
-          return this.serie.books.filter(b => b.read === true).length;
-        },
-        computePercentage() {
-          return Math.floor(
-            this.serie.books.filter(b => b.read === true).length /
-              this.serie.numberOfBooks *
-              100
-          );
-        }
+import store from "../store";
+
+export default {
+  props: ["serie"],
+  computed: {
+    imageURL() {
+      return this.serie.imglink;
+    },
+    booksReadInSerie() {
+      return this.serie.books.filter(b => b.read === true).length;
+    },
+    computePercentage() {
+      return Math.floor(
+        this.serie.books.filter(b => b.read === true).length /
+          this.serie.numberOfBooks *
+          100
+      );
+    }
+  },
+  methods: {
+    deleteSeries() {
+      this.$refs.thecard.setAttribute("class", "card float-left m-1 text-white bg-danger");
+      if (confirm("Are you sure you want to delete " + this.serie.name + "?")) {
+        store.commit("deleteSeriesById", this.serie.id);
+        store.commit('saveToLocalStorage')
       }
-    };
+      this.$refs.thecard.setAttribute("class", "card float-left m-1");
+    }
+  }
+};
 </script>

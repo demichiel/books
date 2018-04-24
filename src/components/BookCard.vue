@@ -53,8 +53,9 @@ export default {
         "class",
         "card float-left m-1 text-white bg-danger"
       );
-      if (confirm("Are you sure you want to delete " + this.book.name + "?")) {
+      if (confirm("Are you sure you want to delete " + this.book.title + "?")) {
         store.commit("deleteBookById", this.book.id)
+        store.commit('saveToLocalStorage')
       }
       this.$refs.thecard.setAttribute("class", "card float-left m-1")
     },
