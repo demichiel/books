@@ -28,6 +28,6 @@ npm run build
 
 - [x] 'Currently reading'-knop toevoegen aan bookcard
 - [x] 'Delete Series'-knop toevoegen aan SeriesCard of SeriesPage
-- [ ] Rating systeem toevoegen
+- [x] Rating systeem toevoegen
 - [ ] Export bibliotheek in JSON
 - [ ] Import JSON bibliotheek
