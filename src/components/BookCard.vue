@@ -15,7 +15,7 @@
               <p class="card-text mb-1" v-if="book.read"><strong>Read:</strong> Yes</p>
               <p class="card-text mb-1" v-if="!book.read"><strong>Read:</strong> No</p>
               <div class="pretty p-icon p-smooth mb-2">
-                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" v-model="book.currentlyReading" @click="currentlyReadingClicked">
+                <input class="form-check-input" type="checkbox" id="inlineCheckbox3" v-model="book.currentlyReading" disabled>
                   <div class="state p-primary">
                       <i class="icon fa fa-check"></i>
                       <label>Currently Reading</label>
@@ -62,9 +62,6 @@ export default {
       }
       this.$refs.thecard.setAttribute("class", "card float-left m-1")
     },
-    currentlyReadingClicked() {
-      store.commit('saveToLocalStorage')
-    }
   },
   components: {
     Rating
