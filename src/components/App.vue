@@ -20,9 +20,15 @@ import store from "../store"
 import SeriesList from '../components/SeriesList.vue'
 import Nav from '../components/Nav.vue'
 import Vivus from 'vivus'
+import randomColor from 'randomcolor'
 
 export default {
   name: "app",
+  data () {
+    return {
+      counter: 0
+    }
+  },
   computed: {
     series() {
       return store.state.series;
@@ -41,6 +47,10 @@ export default {
   },
   methods: {
     restartAnimation () {
+      this.counter++
+      if(this.counter >= 5) {
+        document.querySelector("#my-svg").getSVGDocument().getElementById("g-element").setAttribute("style", "fill:none; stroke:" + randomColor({luminosity: 'dark'}) + "; stroke-width:7; stroke-linecap:round; stroke-miterlimit:10")
+      }
       var viv = new Vivus('my-svg', {
         type: 'oneByOne',
         duration: 100,

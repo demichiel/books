@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="164 112 332 273">
-<g style="fill:none; stroke:#000000; stroke-width:7; stroke-linecap:round; stroke-miterlimit:10">
+<g id="g-element" style="fill:none; stroke:#000000; stroke-width:7; stroke-linecap:round; stroke-miterlimit:10">
 <path d="M346.2,219.2c25.5-24.2,47-32.1,87-39.7"/>
 <path d="M346.6,236c25.5-24.2,47-32.1,87-39.7"/>
 <path d="M346.2,252.2c25.5-24.2,47-32.1,87-39.7"/>
